@@ -6,6 +6,7 @@ from dotenv import load_dotenv
 # Import dirapikan jadi satu baris biar ga pusing
 from sympy import sympify, SympifyError, Matrix
 from sympy.logic.boolalg import truth_table
+from keep_alive import keep_alive
 
 # load environment variables
 load_dotenv()
